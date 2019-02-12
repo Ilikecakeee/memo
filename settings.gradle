@@ -1,0 +1,5 @@
+include ':app', ':kotlin', ':core', ':sample', ':java', ':multi-image-selector'
+project(':kotlin').projectDir = new File('LitePal-master/kotlin')
+project(':core').projectDir = new File('LitePal-master/core')
+project(':sample').projectDir = new File('LitePal-master/sample')
+project(':java').projectDir = new File('LitePal-master/java')

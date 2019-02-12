@@ -1,0 +1,8 @@
+<litepal>
+    <dbname value="memo"/>
+    <version value="1"/>
+    <list >
+        <mapping class="com.example.memo.db.subject"/>
+        <mapping class="com.example.memo.db.memos"/>
+    </list>
+</litepal>

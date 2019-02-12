@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.memo.AddMemoActivity">
+    <item
+        android:id="@+id/paishe"
+        android:icon="@drawable/ic_takephoto"
+        android:title="照片图库"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/tuku"
+        android:icon="@drawable/ic_photo"
+        android:title="拍摄照片"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/save"
+        android:icon="@drawable/ic_save"
+        android:title="Save"
+        app:showAsAction="always"
+        />
+
+</menu>
